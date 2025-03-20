@@ -1,4 +1,8 @@
-# Billing Form Application Assignment
+# Billing Form Application
+## Video Demonstration
+For a detailed walkthrough, watch the video demonstration here:
+
+[![Watch Video](https://img.shields.io/badge/Watch%20Video-Click%20Here-blue)](https://drive.google.com/file/d/1fIGcZ8m8M7TnsiS25zcHBpQf_W1yFit9/view?usp=sharing)
 
 This is a simple billing form application built using Python with PySide6 for the GUI, SQLite for the database, and FPDF for generating PDF invoices. It allows users to create bills, store them in a database, retrieve stored data, and calculate the grand total for a specific customer.
 
@@ -9,10 +13,6 @@ This is a simple billing form application built using Python with PySide6 for th
 - **Generate Invoice:** Automatically generate a PDF invoice.
 - **Retrieve Data:** Display all stored bills using a table.
 - **Find Grand Total:** Calculate the grand total for a single customer.
-
-## Video Demonstration
-For a detailed walkthrough, watch the video demonstration here:
-[Video Demonstration](#) *(https://drive.google.com/file/d/1fIGcZ8m8M7TnsiS25zcHBpQf_W1yFit9/view?usp=sharing)*
 
 ## Requirements
 Make sure you have the following installed:
@@ -36,6 +36,7 @@ python billing_form.py
 4. Click **Submit** to save the data and generate a PDF invoice.
 5. Use the **Retrieve Data** button to view all records stored in the database.
 6. Enter the customer name and click **Find Grand Total of Customer** to view their total expenditure.
+
 
 ## Database
 The application uses an SQLite database named `billing.db`. A table named `item_bills` is created if it doesn't exist.
