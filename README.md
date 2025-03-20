@@ -10,6 +10,10 @@ This is a simple billing form application built using Python with PySide6 for th
 - **Retrieve Data:** Display all stored bills using a table.
 - **Find Grand Total:** Calculate the grand total for a single customer.
 
+## Video Demonstration
+For a detailed walkthrough, watch the video demonstration here:
+[Video Demonstration](#) *(https://drive.google.com/file/d/1fIGcZ8m8M7TnsiS25zcHBpQf_W1yFit9/view?usp=sharing)*
+
 ## Requirements
 Make sure you have the following installed:
 - Python 3.x
@@ -32,10 +36,6 @@ python billing_form.py
 4. Click **Submit** to save the data and generate a PDF invoice.
 5. Use the **Retrieve Data** button to view all records stored in the database.
 6. Enter the customer name and click **Find Grand Total of Customer** to view their total expenditure.
-
-## Video Demonstration
-For a detailed walkthrough, watch the video demonstration here:
-[Video Demonstration](#) *(https://drive.google.com/file/d/1fIGcZ8m8M7TnsiS25zcHBpQf_W1yFit9/view?usp=sharing)*
 
 ## Database
 The application uses an SQLite database named `billing.db`. A table named `item_bills` is created if it doesn't exist.
