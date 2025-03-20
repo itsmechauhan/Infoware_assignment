@@ -1,4 +1,4 @@
-# Billing Form Application
+# Billing Form Application Assignment
 
 This is a simple billing form application built using Python with PySide6 for the GUI, SQLite for the database, and FPDF for generating PDF invoices. It allows users to create bills, store them in a database, retrieve stored data, and calculate the grand total for a specific customer.
 
@@ -35,7 +35,7 @@ python billing_form.py
 
 ## Video Demonstration
 For a detailed walkthrough, watch the video demonstration here:
-[Video Demonstration](#) *(Replace with actual link)*
+[Video Demonstration](#) *(https://drive.google.com/file/d/1fIGcZ8m8M7TnsiS25zcHBpQf_W1yFit9/view?usp=sharing)*
 
 ## Database
 The application uses an SQLite database named `billing.db`. A table named `item_bills` is created if it doesn't exist.
